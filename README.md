@@ -1,12 +1,10 @@
-I know there is a beautiful gem [Gibbon][1] available for Mailchimp, but sometime there come some conflicts and issues when you try to install Gibbon. For example i got many conflicts of Gibbon dependencies with other gems.
+I know there is a beautiful gem [Gibbon][1] available for Mailchimp, but sometime there come some conflicts and issues when you try to install Gibbon. For example i got many conflicts of Gibbon dependencies with other gems. I know there is [sample application][11] available for mailchimp-api but i believe instead of going through sample application it would be much better if there would be some documentation for mailchimp-api gem.
 
-So i try to integrate Mailchimp official gem, ([mailchimp-api][2]) and succeeded. Now when I try to find some documentation of it i got nothing. I know there is [sample application][11] available for mailchimp-api but i believe instead of going through sample application it would be much better if there would be some documentation for mailchimp-api gem. 
+So i try to integrate **Mailchimp official gem**, ([mailchimp-api][2]) and succeeded. Now when I try to find some documentation of it i got nothing.  
 
-So i thought to make some documenation for it.
+So i thought it would be a good idea to have some documentation, that would be helpful for others.
 
-Make the following constants, in your enviornment file.
-
-
+Make the following constants, in your enviornment file or where ever you are mentioning the constants.
 
 
     MAILCHIMP-API-KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxx"
