@@ -1,6 +1,6 @@
-I know there is a beautiful gem [Gibbon][1] available for Mailchimp, but sometime there come some conflicts and issues when you try to install Gibbon. For example i got many conflicts of Gibbon dependencies with other gems. I know there is [sample application][11] available for mailchimp-api but i believe instead of going through sample application it would be much better if there would be some documentation for mailchimp-api gem.
+I know there is a beautiful gem [Gibbon][1] available for Mailchimp, but sometime there come some conflicts and issues when you try to install Gibbon. For example i got many conflicts of Gibbon dependencies with other gems. I know there is [sample application][2] available for mailchimp-api but i believe instead of going through sample application it would be much better if there would be some documentation for mailchimp-api gem.
 
-So i try to integrate **Mailchimp official gem**, ([mailchimp-api][2]) and succeeded. Now when I try to find some documentation of it i got nothing.  
+So i try to integrate **Mailchimp official gem**, ([mailchimp-api][3]) and succeeded. Now when I try to find some documentation of it i got nothing.  
 
 So i thought it would be a good idea to have some documentation, that would be helpful for others.
 
@@ -133,9 +133,15 @@ Contributing
  5. Create new Pull Request
 
 
+License
+------------
+
+It is free and may be redistributed under the terms specified in the [LICENSE][12] file.
+
+
   [1]: https://github.com/amro/gibbon
   [2]: http://rubydoc.info/gems/mailchimp-api/2.0.4/Mailchimp/Lists#batch_subscribe-instance_method
-  [3]: https://github.com/mailchimp/mcapi2-ruby-examples
+  [3]: http://rubydoc.info/gems/mailchimp-api/2.0.4/Mailchimp/Lists#batch_subscribe-instance_method
   [4]: http://http://kb.mailchimp.com/article/where-can-i-find-my-api-key
   [5]: http://kb.mailchimp.com/article/how-can-i-find-my-list-id/
   [6]: https://rubygems.org/gems/mailchimp-api
@@ -144,3 +150,4 @@ Contributing
   [9]: https://github.com/mailchimp/mcapi2-ruby-examples
   [10]: http://apidocs.mailchimp.com/api/2.0/lists/batch-subscribe.php
   [11]: http://rubydoc.info/gems/mailchimp-api/2.0.4/Mailchimp/Lists#batch_subscribe-instance_method
+  [12]: https://github.com/awais545/mailchimp-api-gem-documentation/blob/master/LICENSE
