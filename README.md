@@ -118,6 +118,10 @@ You can also filtered the campaigns on there status as follow
 
     mailchimp.campaigns.list({:status=>'sent'})
 
+NOTE
+------------
+
+**This is documentation is for mailchimp-api 2.0.4**
 
 Contributing
 ------------
